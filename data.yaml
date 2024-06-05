@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cleat', 'pathole']
+
+roboflow:
+  workspace: internship-tyupk
+  project: test-oe288
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/internship-tyupk/test-oe288/dataset/2
